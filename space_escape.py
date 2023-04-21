@@ -18,8 +18,8 @@ while not b.game_over:
     
     
 
-    if split_input[0] == "take" and len(split_input) > 1 and split_input[1] in b.valid_item_names:
-        b.take(user_input[1])
+    #if split_input[0] == "take" and len(split_input) > 1 and split_input[1] in b.valid_item_names:
+    #    b.take(user_input[1])
 
     if split_input[0] == "give" and len(split_input) > 1 and split_input[1] in b.valid_item_names:
         if split_input[1] == "soul":
@@ -33,6 +33,9 @@ while not b.game_over:
     else:
         print("Invalid command.")
 
+
+if c.inventory["soul"] == False and b.current_location == "end_good":
+    print("Riches but at what cost")
 # Display ending message
 input("\nPress any key to close game")
 
