@@ -6,8 +6,7 @@ starting_location = {
     "name": "Temple Entrance",
     "description": "You are standing at the entrance of an old temple. The door is open, but it looks like nobody has been here in years.",
     "interactions": {        
-        "move north": "You walk towards the temple door.",
-        "move east": "There is a crack to the east of the temple door.",
+        "move north": "You walk towards the temple door.",        
         "move south": "You turn back and leave the temple.",
     },
     "routes": {
@@ -21,8 +20,7 @@ starting_location_2 = {
     "name": "Temple Entrance",
     "description": "You are standing at the entrance of an old temple. The door is open, but it looks like nobody has been here in years.",
     "interactions": {        
-        "move north": "You walk towards the temple door.",
-        "move east": "There is a crack to the east of the temple door.",
+        "move north": "You walk towards the temple door.",        
         "move south": "You turn back and leave the temple.",
     },
     "routes": {
